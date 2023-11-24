@@ -1,0 +1,69 @@
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #61dafb; 
+  }
+  
+  button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+  }
+  
+  th {
+    background-color: #333;
+    color: #61dafb;
+  }
+  
+  tr:hover {
+    background-color: #333;
+  }
+  
+  .action {
+    cursor: pointer;
+    color: #61dafb;
+    text-decoration: underline;
+    margin-right: 10px;
+  }
+  
+  
+  #addForm {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #addForm input {
+    margin-right: 10px;
+  }
+  
+  #addForm button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }

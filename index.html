@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Пример IndexedDB</title>
+</head>
+<body>
+  <h1>Пример IndexedDB</h1>
+  <button id="refreshButton" onclick="updateTable()">Обновить Таблицу</button>
+  <button id="addButton" onclick="showAddForm()">Добавить Запись</button>
+  <div id="addForm" style="display: none;">
+
+    <input type="text" id="column1Input" placeholder="Колонка 1">
+    <input type="text" id="column2Input" placeholder="Колонка 2">
+    <button onclick="saveItem()">Сохранить</button>
+  </div>
+  <table id="dataTable">
+  
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
